@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: 'TinyUnicode';
-  src: url("/pixel_font/TinyUnicode.ttf") format("truetype");
+  src: url("pixel_font/TinyUnicode.ttf") format("truetype");
 }
 
 html {
@@ -12,7 +12,7 @@ body {
     font-size: 31px;
     color: white;
     font-family: 'TinyUnicode';
-    background-image: url("/gifs/starbackground1.gif");
+    background-image: url("gifs/starbackground1.gif");
     background-size: 320px, 320px;
 }
 
