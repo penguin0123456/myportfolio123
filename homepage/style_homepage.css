@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'TinyUnicode';
-  src: url("/pixel_font/TinyUnicode.ttf") format("truetype");
+  src: url("/myportfolio123/pixel_font/TinyUnicode.ttf") format("truetype");
 }
 
 html {
@@ -15,7 +15,7 @@ body {
     font-family: 'TinyUnicode';
     color: white;
     font-size: 31px;
-    background-image: url("/gifs/starbackground1.gif");
+    background-image: url("/myportfolio123/gifs/starbackground1.gif");
     background-size: 320px, 320px;
     overflow-x: hidden !important;
 }
