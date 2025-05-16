@@ -1,0 +1,126 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+@font-face {
+  font-family: 'TinyUnicode';
+  src: url("pixel_font/TinyUnicode.ttf") format("truetype");
+}
+
+html {
+  font-size: 16px;
+}
+
+.earthgif {
+  transform: translate(500px, 26px)
+}
+
+.earthgif2 {
+  transform: translate(900px, -40px)
+}
+body {
+    font-size: 35px;
+    color: white;
+    font-family: 'TinyUnicode';
+    background-image: url("/gifs/starbackground2.gif");
+    background-size: 340px, 340px;
+    overflow-x: hidden !important;
+
+}
+
+.underconstruction1 {
+  position: relative;
+  bottom:900px;
+}
+
+.backgroundrectangle {
+  position: relative;
+  width: 60rem;
+  height:37rem;
+  background-color:  black;
+  border-style: outset;
+  border-width: 6px;
+  border-color: rgb(230, 228, 228);
+  top: 3.8em; 
+}
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    z-index: 2;
+
+}
+
+
+p {
+  display: flexbox;
+  justify-content: center;
+  z-index: 2;
+  font-size: 30px;
+}
+
+.yesbutton {
+  margin-right: 3rem;
+  transform: translate(0rem, -38rem);
+  
+}
+
+.nobutton {
+  position: relative;
+  bottom:38rem;
+  margin-left: 3rem;
+}
+
+.godzillagif {
+  position: relative;
+  bottom: 21rem;
+}
+
+.enterwebsite {
+  position: relative;
+  bottom:44rem;
+}
+
+.compatibletext {
+  display: absolute;
+  text-align:center;
+  transform: translate(0rem, -24rem);
+}
+
+.containerrectangle {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.containerentrance {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.containertitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containergif {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.containerconstruction {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.guitar1 {
+  display: flex;
+}
+
+.guitar2 {
+  transform: translate(800px, 0px);
+}
+
