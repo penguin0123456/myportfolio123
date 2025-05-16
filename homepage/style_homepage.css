@@ -1,0 +1,239 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+@font-face {
+  font-family: 'TinyUnicode';
+  src: url("/pixel_font/TinyUnicode.ttf") format("truetype");
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+    font-family: 'TinyUnicode';
+    color: white;
+    font-size: 31px;
+    background-image: url("/gifs/starbackground1.gif");
+    background-size: 320px, 320px;
+    overflow-x: hidden !important;
+}
+
+a:link {
+  color:#c0e8f9;
+}
+
+a:visited {
+  color:#c0e8f9;
+}
+
+a:hover{
+  color:white;
+}
+
+a:active {
+  color:#c0e8f9
+}
+
+
+h1 {
+  color: white;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  padding-bottom: 0.4rem;
+  margin: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size:90px;
+  
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: -2.2rem;
+  margin-left: 1.2rem;
+}
+
+h4 {
+  font-size: 65px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+h5 {
+  font-size: 45px;
+  margin-top: -30px;
+}
+
+p {
+  font-size: 29px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+
+.texttitle {
+  transform: translate(0rem, -7.5rem);
+}
+
+.aboutmetext {
+  transform: translate(0px, -110px);
+}
+
+.hobbiestext {
+  transform: translate(0px, -110px);
+}
+
+.favmusictext {
+  transform: translate(0px, -110px);
+  margin-bottom: -100px;
+  color: white;
+}
+
+
+
+
+.connorphoto1 {  
+  border-style: outset;
+  border-width: 6px;
+  border-color: rgb(230, 228, 228);
+}
+
+.homepagetitle {
+  margin-right: -500px;
+  margin-left: -20px;
+  margin-bottom:-30px;
+  transform: translate(0px, -120px);
+}
+
+.sitedirectory {
+  display: inline;
+  text-align:center;
+  margin-right: 50%;
+  margin-left: 50%;
+}
+
+.musicsectiontitle {
+  font-size: 45px;
+  display: inline;
+  text-align:center;
+
+}
+
+.booksectiontitle {
+  font-size: 45px;
+  display: inline;
+  text-align:center;
+
+}
+
+.photosectiontitle {
+  display: inline;
+  font-size: 45px;
+  text-align:center;
+}
+
+.blogsectiontitle {
+  display: inline;
+  font-size: 45px;
+  text-align:center;  
+
+}
+
+.varioussectiontitle {
+  font-size: 45px;
+  display: inline;
+  text-align:center;
+}
+
+.garfieldpet {
+  margin-left: 14px;
+  background-color: black;
+  padding-left: 1%;
+  padding-right: 2%;
+  padding-top: 3.5%;
+  border-style: outset;
+  border-width: 6px;
+  border-color: rgb(230, 228, 228);
+}
+
+
+.cutecatmeme {
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.underconstructiongif2 {
+  margin-top: 4%;
+}
+
+.blinkiestitles {
+  font-size: 43px;
+  display: inline;
+  text-align:center;
+}
+
+.containerblinkiesection {
+  color: white;
+  background-color: black;
+  border-style: outset;
+  border-width: 6px;
+  border-color: rgb(230, 228, 228);
+  margin-top: -22rem;
+  margin-right: 370px;
+  margin-left: 350px;
+  padding-left: 1%;
+}
+
+.containerblinkies {
+  display: flex;
+  gap: 2%;
+  margin-top: 2%;
+}
+
+.linuxmintblinkie {
+  margin-left: -2%;
+}
+
+.containerdirectory {
+  color: white;
+  background-color: black;
+  border-style: outset;
+  border-width: 6px;
+  border-color: rgb(230, 228, 228);
+  float: right;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.containerhomepageintro {
+  color: white;
+  background-color: black;
+  border-style: outset;
+  border-width: 6px;
+  border-color: rgb(230, 228, 228);
+  padding-top: 110px;
+  width: 70%;
+  height: 80%;
+  
+}
+
+.containergarfield {
+  margin-top: -15rem
+}
+
+.containerhomepage {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2%;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+
+
+
+
+
