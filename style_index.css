@@ -21,7 +21,7 @@ body {
     font-size: 35px;
     color: white;
     font-family: 'TinyUnicode';
-    background-image: url("/gifs/starbackground2.gif");
+    background-image: url("gifs/starbackground2.gif");
     background-size: 340px, 340px;
     overflow-x: hidden !important;
 
