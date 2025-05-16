@@ -1,0 +1,64 @@
+
+@font-face {
+  font-family: 'TinyUnicode';
+  src: url("/pixel_font/TinyUnicode.ttf") format("truetype");
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+    font-size: 31px;
+    color: white;
+    font-family: 'TinyUnicode';
+    background-image: url("/gifs/starbackground1.gif");
+    background-size: 320px, 320px;
+}
+
+a:link {
+  color:#c0e8f9;
+}
+
+a:visited {
+  color:#c0e8f9;
+}
+
+a:hover{
+  color:white;
+}
+
+a:active {
+  color:#c0e8f9
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    padding: 0.9rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+h2 {
+  text-align: center;
+  background-color: black;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  padding: 0.8rem;
+  margin-left: 13rem;
+  margin-right: 13rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.kirbymusicgif {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  transform: translate(0px, -5rem);
+}

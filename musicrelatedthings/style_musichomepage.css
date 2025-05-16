@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'TinyUnicode';
+  src: url("/pixel_font/TinyUnicode.ttf") format("truetype");
+}
+
+body {
+    font-family: 'TinyUnicode';
+    color: white;
+    font-size: 31px;
+    background-image: url("/gifs/starbackground1.gif");
+    background-size: 320px, 320px;
+    overflow-x: hidden !important;
+}
+
+a:link {
+  color:#c0e8f9;
+}
+
+a:visited {
+  color:#c0e8f9;
+}
+
+a:hover{
+  color:white;
+}
+
+a:active {
+  color:#c0e8f9
+}
+
+
+h1 {
+    font-size: 90px;
+}
+.musichomepagetitle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-top: -50px;
+    margin-bottom: -40px;
+}
+
+
+
+.backbutton {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+
+.containerguitarcatimage {
+    position: absolute;
+    top: 13%;
+    left: 15%;
+}
+
+.hyperpopblogtitle {
+    margin-right: 200px;
+    margin-left: 20px;
+}
+
+.hyperpopblogdate {
+    margin-left: 20px;
+}
+
+
+.containermusicbloghomepagetitle {
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom:100px;
+    border-style: outset;
+    border-width: 6px;
+    border-color: rgb(230, 228, 228);
+    margin-left: 500px;
+    margin-right: 140px;
+    transform: translate(200px, 0px);
+}
+
+.containermusicbloghomepage {
+    background-color: black;
+    border-style: outset;
+    border-width: 6px;
+    border-color: rgb(230, 228, 228);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top:40px;
+    padding-bottom:300px;
+}
+
+.containermusicbloglinks {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 9rem;
+    gap: 3rem;
+}
+
+containermusicbloglinks2 {
+    display: flex;
+    justify-content: center;
+    transform: translate(500px, 0px);
+}
+
+.containerhyperpopblogtitle {
+    color: white;
+    background-color: black;
+    border-style: outset;
+    border-width: 6px;
+    border-color: rgb(230, 228, 228);
+    margin-left: -25%;
+    width: 90%;
+    
+}
